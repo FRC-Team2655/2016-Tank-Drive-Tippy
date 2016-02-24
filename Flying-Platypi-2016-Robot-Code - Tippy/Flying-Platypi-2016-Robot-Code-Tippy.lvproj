@@ -160,6 +160,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Power_Scale_Line.vi" Type="VI" URL="../Team VIs/Power_Scale_Line.vi"/>
 			<Item Name="Rotate To.vi" Type="VI" URL="../Team VIs/Rotate To.vi"/>
 		</Item>
+		<Item Name="DriveTalons.vi" Type="VI" URL="../../../Flying-Platypi-2016-Robot-Code/Team VIs/DriveTalons.vi">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
+		</Item>
+		<Item Name="FRC ADI MXP IMU.lvlib" Type="Library" URL="../../../Flying-Platypi-2016-Robot-Code/ADI MXP IMU/ADI MXP IMU/FRC ADI MXP IMU.lvlib">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -738,6 +744,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Flip Flop.vi" Type="VI" URL="../../../Flying-Platypi-2016-Robot-Code/Team VIs/Flip Flop.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
